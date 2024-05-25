@@ -17,6 +17,7 @@ void linkListTraversal(struct Node *ptr)
     }
 }
 
+// case 1
 struct Node *insertAtFirst(struct Node *head, int data)
 {
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
@@ -25,6 +26,7 @@ struct Node *insertAtFirst(struct Node *head, int data)
     return ptr;
 }
 
+//case 2
 struct Node *insertInBetween(struct Node *head, int data, int index)
 {
 
@@ -43,6 +45,8 @@ struct Node *insertInBetween(struct Node *head, int data, int index)
     return head;
 }
 
+
+//case 3
 struct Node *insertAtEnd(struct Node *head, int data)
 {
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
@@ -58,6 +62,8 @@ struct Node *insertAtEnd(struct Node *head, int data)
 
     return head;
 }
+
+// case 4
 struct Node *insertAfterNode(struct Node *head, struct Node *prevNode, int data)
 {
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
