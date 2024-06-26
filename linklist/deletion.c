@@ -41,6 +41,7 @@ struct Node *deleteInBetween(struct Node *head, int index)
     return head;
 }
 
+
 struct Node *deleteLastNode(struct Node *head)
 {
 
