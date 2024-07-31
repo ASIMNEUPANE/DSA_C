@@ -31,7 +31,7 @@ struct Node *deleteInBetween(struct Node *head, int index)
     int i = 0;
     struct Node *p = head;
     while (i != index - 1)
-    {
+   {
         p = p->next;
         i++;
     }
